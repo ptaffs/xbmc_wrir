@@ -7,8 +7,8 @@
     <provides>audio</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Your add-on's summary</summary>
-    <description lang="en">Your add-on's description</description>
+    <summary lang="en">LiveStream WRIR97.3fm</summary>
+    <description lang="en">Richmond Independent Radio live stream client. Archive items to be developed later.</description>
     <disclaimer lang="en"></disclaimer>
     <language></language>
     <platform>all</platform>
