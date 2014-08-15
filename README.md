@@ -3,7 +3,7 @@ xbmc_wrir
 
 wrir for xbmc
 
-Simply has Listen to Livestream menu item. It's a start.
+Simple listen client for live stream and archive.
 
 From GitHub, click Download ZIP to XBMC machine, use menus to install add-on from ZIP.
 

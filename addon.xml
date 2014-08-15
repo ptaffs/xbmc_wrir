@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.wrir" name="WRIR97.3" version="1.0.0" provider-name="PTaffs">
+<addon id="plugin.audio.wrir" name="WRIR97.3" version="1.1.0" provider-name="PTaffs">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -8,7 +8,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">LiveStream WRIR97.3fm</summary>
-    <description lang="en">Richmond Independent Radio live stream client. Archive items to be developed later.</description>
+    <description lang="en">Richmond Independent Radio live stream and archive client.</description>
     <disclaimer lang="en"></disclaimer>
     <language></language>
     <platform>all</platform>
