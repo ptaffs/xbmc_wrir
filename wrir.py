@@ -18,9 +18,9 @@ li = xbmcgui.ListItem('Stream: ' + result['title'],
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=livestream, listitem=li)
 
 
-showsurl="http://files.wrir.org/cgi-bin/sl2"
+showsurl="http://files.wrir.org/cgi-bin/showlist2?music"
 result=json.load(urllib2.urlopen(showsurl))
-for i in result['shows']:
-          li=xbmcgui.ListItem(i['title'],iconImage='http://wrir.org/'+i['poster'])
+for i in result:
+          li=xbmcgui.ListItem(i['title'],iconImage='http://wrir.org/'+i['poster2'])
           xbmcplugin.addDirectoryItem(handle=addon_handle,url=i['mp3'],listitem=li)
 xbmcplugin.endOfDirectory(addon_handle)
